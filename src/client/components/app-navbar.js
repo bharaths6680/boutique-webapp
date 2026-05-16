@@ -1,5 +1,6 @@
 import { LitElement, html, css } from 'lit';
 import { NAVBAR_CONFIG } from '../config/navbar.config.js';
+import { onImgError } from '../config/images.config.js';
 /**
  * <app-navbar>
  * Fixed top navigation bar.
