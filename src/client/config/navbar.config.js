@@ -4,13 +4,13 @@
  * Change links, logo alt text, or section anchors here — not in the component.
  */
 
-import { IMAGES } from './images.config.js';
+import { img } from './images.config.js';
 
 export const NAVBAR_CONFIG = {
 
   /* ── Brand ─────────────────────────────────────────────── */
   brand: {
-    logoSrc:  IMAGES.logo,
+    logoSrc:  img('logo'),
     logoAlt:  'Winter Flower Designs',
     logoPath: '/',                     // navigate to on click
     /* Text shown if logo image fails to load */
