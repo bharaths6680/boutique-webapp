@@ -3,13 +3,13 @@
  * Drives <app-footer> entirely — links, social, payments, brand copy.
  */
 
-import { IMAGES } from './images.config.js';
+import { img } from './images.config.js';
 
 export const FOOTER_CONFIG = {
 
   /* ── Brand ─────────────────────────────────────────────── */
   brand: {
-    logoSrc:      IMAGES.logo,
+    logoSrc:      img('logo'),
     logoAlt:      'Winter Flower Designs',
     fallbackText: 'Winter Flower Designs',
     description:  'Curated women\'s fashion — ready-made, custom-stitched, and rental collections for every occasion and budget.',
@@ -44,18 +44,18 @@ export const FOOTER_CONFIG = {
         { label: 'Shipping Policy', path: '/shipping'   },
         { label: 'Returns',         path: '/returns'    },
         { label: 'Contact Us',      path: '/contact'    },
-        { label: 'WhatsApp Chat',   path: 'https://wa.me/917411387691' },
+        { label: 'WhatsApp Chat',   path: '#'           },
       ],
     },
   ],
 
   /* ── Social links ───────────────────────────────────────── */
   social: [
-    { label: 'Instagram', href: 'https://instagram.com/winterflower_designs', icon: 'ti ti-brand-instagram' },
-    { label: 'Facebook',  href: 'https://facebook.com/winterflower_designs',  icon: 'ti ti-brand-facebook'  },
-    { label: 'WhatsApp',  href: 'https://wa.me/917411387691',                icon: 'ti ti-brand-whatsapp'  },
-    { label: 'YouTube',   href: 'https://youtube.com/@winterflower_designs',  icon: 'ti ti-brand-youtube'   },
-    { label: 'Pinterest', href: 'https://pinterest.com/winterflower_designs', icon: 'ti ti-brand-pinterest' },
+    { label: 'Instagram', href: 'https://instagram.com/winterflowerdesigns', icon: 'ti ti-brand-instagram' },
+    { label: 'Facebook',  href: 'https://facebook.com/winterflowerdesigns',  icon: 'ti ti-brand-facebook'  },
+    { label: 'WhatsApp',  href: 'https://wa.me/919876543210',                icon: 'ti ti-brand-whatsapp'  },
+    { label: 'YouTube',   href: 'https://youtube.com/@winterflowerdesigns',  icon: 'ti ti-brand-youtube'   },
+    { label: 'Pinterest', href: 'https://pinterest.com/winterflowerdesigns', icon: 'ti ti-brand-pinterest' },
   ],
 
   /* ── Payment badges ──────────────────────────────────────── */
